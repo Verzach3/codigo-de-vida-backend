@@ -1,0 +1,30 @@
+_id: req_e1ab9a57337549efae238cb8a4a3858e
+type: Request
+parentId: wrk_d430ce9cad854935838ace4bd3cf70d9
+modified: 1656970481471
+created: 1656945051384
+url: localhost:3000/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "antionio@gmail.com",
+    	"password": "Password" 
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_baf4afe8c86142179cc89df40c1a7e6b
+authentication: {}
+metaSortKey: -1656945010771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

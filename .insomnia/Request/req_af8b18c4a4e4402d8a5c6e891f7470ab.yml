@@ -1,0 +1,29 @@
+_id: req_af8b18c4a4e4402d8a5c6e891f7470ab
+type: Request
+parentId: wrk_d430ce9cad854935838ace4bd3cf70d9
+modified: 1656981379447
+created: 1656945010821
+url: localhost:3000
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b3ea1cc2c48e4e35a5410a064cd372b3
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVkSDhnMzBuLWJxdjJzeV9fcUFvQiIsImlhdCI6MTY1Njk0NjYwNywiZXhwIjoxNjU2OTY0NjA3fQ.8jlgNOWEW8UA-ItT3IVCilHM9XjqV2le0oq3YorME3g
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVkSDhnMzBuLWJxdjJzeV9fcUFvQiIsImlhdCI6MTY1Njk0NjYwNywiZXhwIjoxNjU2OTY0NjA3fQ.8jlgNOWEW8UA-ItT3IVCilHM9XjqV2le0oq3YorME3g
+  disabled: true
+metaSortKey: -1656945010821
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
