@@ -1,0 +1,31 @@
+_id: req_a9c131de56494b3eb83783fa49b95e76
+type: Request
+parentId: wrk_d430ce9cad854935838ace4bd3cf70d9
+modified: 1656970479861
+created: 1656946167251
+url: localhost:3000/auth/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Antonio",
+    	"email": "antionio@gmail.com",
+    	"password": "Password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_baf4afe8c86142179cc89df40c1a7e6b
+authentication: {}
+metaSortKey: -1656945010721
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
